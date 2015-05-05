@@ -1,0 +1,26 @@
+﻿Build started 05/05/2015 09:22:23 ص.
+     1>Project "D:\Parallel & Cluster Computing\grid\grid\grid\grid.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:\Parallel & Cluster Computing\pthreads\pthreads-w32-2-9-1-release\pthreads.2" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\grid.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt  grid.cpp
+         grid.cpp
+     1>d:\parallel & cluster computing\grid\grid\grid\grid.cpp(49): warning C4244: 'initializing' : conversion from '__int64' to 'long', possible loss of data
+     1>d:\parallel & cluster computing\grid\grid\grid\grid.cpp(51): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\parallel & cluster computing\grid\grid\grid\grid.cpp(55): warning C4244: '=' : conversion from '__int64' to 'long', possible loss of data
+     1>d:\parallel & cluster computing\grid\grid\grid\grid.cpp(57): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\parallel & cluster computing\grid\grid\grid\grid.cpp(61): warning C4244: '=' : conversion from '__int64' to 'long', possible loss of data
+     1>d:\parallel & cluster computing\grid\grid\grid\grid.cpp(63): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\parallel & cluster computing\grid\grid\grid\grid.cpp(128): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\parallel & cluster computing\grid\grid\grid\grid.cpp(151): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\parallel & cluster computing\grid\grid\grid\grid.cpp(163): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\parallel & cluster computing\grid\grid\grid\grid.cpp(219): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\parallel & cluster computing\grid\grid\grid\grid.cpp(233): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\parallel & cluster computing\grid\grid\grid\grid.cpp(244): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Parallel & Cluster Computing\grid\grid\Debug\grid.exe" /INCREMENTAL /NOLOGO "D:\Parallel & Cluster Computing\pthreads\pthreads-w32-2-9-1-release\Pre-built.2\lib\x86\pthreadVC2.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Parallel & Cluster Computing\grid\grid\Debug\grid.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Parallel & Cluster Computing\grid\grid\Debug\grid.lib" /MACHINE:X86 Debug\grid.obj
+         Debug\stdafx.obj
+         grid.vcxproj -> D:\Parallel & Cluster Computing\grid\grid\Debug\grid.exe
+     1>Done Building Project "D:\Parallel & Cluster Computing\grid\grid\grid\grid.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.45

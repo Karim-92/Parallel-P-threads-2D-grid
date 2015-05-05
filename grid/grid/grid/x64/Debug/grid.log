@@ -1,0 +1,26 @@
+﻿Build started 5/5/2015 8:43:38 AM.
+     1>Project "C:\Users\Nightwing\Documents\Visual Studio 2013\Projects\grid\grid\grid\grid.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"E:\CES17\Parallel & Cluster Computing\Project\pthreads\pthreads-w32-2-9-1-release\pthreads.2" /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\grid.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt  grid.cpp
+         grid.cpp
+     1>grid.cpp(49): warning C4244: 'initializing' : conversion from '__int64' to 'long', possible loss of data
+     1>grid.cpp(51): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>grid.cpp(55): warning C4244: '=' : conversion from '__int64' to 'long', possible loss of data
+     1>grid.cpp(57): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>grid.cpp(61): warning C4244: '=' : conversion from '__int64' to 'long', possible loss of data
+     1>grid.cpp(63): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>grid.cpp(128): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>grid.cpp(151): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>grid.cpp(163): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>grid.cpp(219): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>grid.cpp(233): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>grid.cpp(244): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Nightwing\Documents\Visual Studio 2013\Projects\grid\grid\x64\Debug\grid.exe" /INCREMENTAL /NOLOGO "E:\CES17\Parallel & Cluster Computing\Project\pthreads\pthreads-w32-2-9-1-release\Pre-built.2\lib\x64\pthreadVC2.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Nightwing\Documents\Visual Studio 2013\Projects\grid\grid\x64\Debug\grid.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Nightwing\Documents\Visual Studio 2013\Projects\grid\grid\x64\Debug\grid.lib" /MACHINE:X64 x64\Debug\grid.obj
+         x64\Debug\stdafx.obj
+         grid.vcxproj -> C:\Users\Nightwing\Documents\Visual Studio 2013\Projects\grid\grid\x64\Debug\grid.exe
+     1>Done Building Project "C:\Users\Nightwing\Documents\Visual Studio 2013\Projects\grid\grid\grid\grid.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.52
